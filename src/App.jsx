@@ -27,7 +27,6 @@ function ScrollToTop() {
 
 function App() {
  return  (
-    <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/recipe" element={<Recipies />} />
@@ -37,6 +36,7 @@ function App() {
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
+
   ); 
 
 }
