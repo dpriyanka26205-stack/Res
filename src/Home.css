@@ -1,0 +1,218 @@
+.navbar-brand {
+  font-family: 'Georgia', serif;
+  font-size: 24px;
+}
+
+.nav-link {
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+input.form-control {
+  box-shadow: none !important;
+  border-radius: 0;
+}
+
+button.btn-danger {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heros {
+  height: 520px;
+  background-image: url("./assets/hero.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Light white overlay like screenshot */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+}
+
+/* Content */
+.hero-content {
+  position: relative;
+  max-width: 720px;
+  padding: 20px;
+}
+
+/* Title */
+.hero-content h1 {
+  color: #d62828;
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Paragraph */
+.hero-content p {
+  font-size: 20px;
+  color: #222;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+/* Button */
+.hero-btn {
+  background-color: #d62828;
+  color: #fff;
+  border: none;
+  padding: 14px 38px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  transition: 0.3s ease;
+}
+
+.hero-btn i {
+  font-size: 16px;
+}
+
+/* Hover */
+.hero-btn:hover {
+  background-color: #b71c1c;
+}
+
+.food-card img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+/* Category text (red small text) */
+.category {
+  color: #d62828;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+/* Title */
+.title {
+  font-size: 28px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+/* Optional spacing fix */
+.food-card {
+  cursor: pointer;
+}
+
+/* Hover effect (nice touch) */
+.food-card img {
+  transition: 0.5s ease;
+}
+
+.food-card:hover img {
+  transform: scale(1.03);
+}
+
+.subscribe-section {
+  border: 2px solid #e63946;
+  padding: 40px;
+  margin: 50px;
+  background-color: #f9f9f9;
+
+}
+
+/* Left text */
+.small-text {
+  color: #e63946;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.main-text {
+  color: #c1121f;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Inputs layout */
+.input-group-custom {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Input styling */
+.custom-input {
+  border: none;
+  border-bottom: 2px solid #e63946;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  background: transparent;
+}
+
+/* Send button */
+.send-btn {
+  background: none;
+  border: none;
+  color: #e63946;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.latest-section .title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* View button */
+.view-btn {
+  background-color: #e63946;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Card */
+.recipe-card {
+  border-radius: 20px;
+  overflow: hidden;
+  background: #f1f1f1;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Text */
+.recipe-card p {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Hover effect */
+.recipe-card:hover {
+  transform: translateY(-5px);
+}
