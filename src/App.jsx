@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -27,7 +27,6 @@ function ScrollToTop() {
 
 function App() {
  return  (
-    <BrowserRouter>
     <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -38,7 +37,6 @@ function App() {
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
-    </BrowserRouter>
   ); 
 
 }
